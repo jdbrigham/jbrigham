@@ -1,0 +1,69 @@
+<html>
+<head>
+<style>
+     .pieContainer {
+          height: 200px;
+     }
+     .pieBackground {
+          background-color: #998822;
+          position: absolute;
+          width: 200px;
+          height: 200px;
+          -moz-border-radius: 100px;
+          -webkit-border-radius: 100px;
+          -o-border-radius: 100px;
+          border-radius: 100px;
+         /*
+ -moz-box-shadow: -1px 1px 3px #000;
+          -webkit-box-shadow: -1px 1px 3px #000;
+          -o-box-shadow: -1px 1px 3px #000;
+          box-shadow: -1px 1px 3px #000;
+*/
+     }
+     
+     .pie {
+          position: absolute;
+          width: 200px;
+          height: 200px;
+          -moz-border-radius: 100px;
+          -webkit-border-radius: 100px;
+          -o-border-radius: 100px;
+          border-radius: 100px;
+          clip: rect(0px, 100px, 200px, 0px);
+     }
+     .hold {
+          position: absolute;
+          width: 200px;
+          height: 200px;
+          -moz-border-radius: 100px;
+          -webkit-border-radius: 100px;
+          -o-border-radius: 100px;
+          border-radius: 100px;
+          clip: rect(0px, 200px, 200px, 100px);
+     }
+     #pieSlice1 .pie {
+          background-color: #1b458b;
+          -webkit-transform:rotate(50deg);
+          -moz-transform:rotate(50deg);
+          -o-transform:rotate(50deg);
+          transform:rotate(50deg);
+     }
+     
+     #pieSlice2 .pie {
+          background-color: #222;
+          -webkit-transform:rotate(100deg);
+          -moz-transform:rotate(100deg);
+          -o-transform:rotate(100deg);
+          transform:rotate(100deg);
+     }
+</style>
+
+</head>
+<body>
+<div id="pieContainer">
+     <div class="pieBackground"></div>
+     <div id="pieSlice1" class="hold"><div class="pie"></div></div>
+     <div id="pieSlice2" class="hold"><div class="pie"></div></div>
+</div>
+</body>
+</html>
