@@ -12,11 +12,15 @@
 	<string>XGdhjwwSQ0KdNv6gYXj9Mg</string>
 	<key>isIPhotoLibrary</key>
 	<true/>
+	<key>masterCount</key>
+	<integer>1</integer>
 	<key>migratedMobileMeAccounts</key>
 	<array/>
 	<key>projectCompatibleBackToVersion</key>
 	<integer>7</integer>
 	<key>projectVersion</key>
 	<integer>7</integer>
+	<key>versionCount</key>
+	<integer>1</integer>
 </dict>
 </plist>

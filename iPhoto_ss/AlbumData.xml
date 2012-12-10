@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+<key>Application Version</key>
+<string>9.2.3</string>
+<key>Archive Path</key>
+<string>/Users/jbrigham/SparkleShare/jbrigham/iPhoto_ss</string>
+	<key>ArchiveId</key>
+	<string>1</string>
+<key>List of Albums</key>
+<array>
+<dict>
+<key>AlbumId</key>
+<integer>3</integer>
+<key>AlbumName</key>
+<string>Photos</string>
+<key>KeyList</key>
+<array>
+<string>1</string>
+</array>
+<key>Master</key>
+<true/>
+<key>GUID</key>
+<string>allPhotosAlbum</string>
+<key>PhotoCount</key>
+<integer>1</integer>
+<key>PlayMusic</key>
+<string>YES</string>
+<key>RepeatSlideShow</key>
+<string>YES</string>
+<key>SecondsPerSlide</key>
+<integer>3</integer>
+<key>SlideShowUseTitles</key>
+<false/>
+<key>SongPath</key>
+<string>/Applications/iPhoto.app/Contents/Resources/Music/Minuet in G.mp3</string>
+<key>TransitionDirection</key>
+<integer>0</integer>
+<key>TransitionName</key>
+<string>Default</string>
+<key>TransitionSpeed</key>
+<real>1.000000</real>
+<key>PanAndZoom</key>
+<string>YES</string>
+<key>Style</key>
+<string>Classic</string>
+<key>ShuffleSlides</key>
+<false/>
+</dict>
+<dict>
+<key>AlbumId</key>
+<integer>2147483643</integer>
+<key>AlbumName</key>
+<string>Last 12 Months</string>
+<key>KeyList</key>
+<array>
+<string>1</string>
+</array>
+<key>Album Type</key>
+<string>Special Month</string>
+<key>GUID</key>
+<string>lastNMonthsAlbum</string>
+<key>Filter Mode</key>
+<string>Any</string>
+<key>Filters</key>
+<array>
+</array>
+<key>PhotoCount</key>
+<integer>1</integer>
+<key>PlayMusic</key>
+<string>YES</string>
+<key>RepeatSlideShow</key>
+<string>YES</string>
+<key>SecondsPerSlide</key>
+<integer>3</integer>
+<key>SlideShowUseTitles</key>
+<false/>
+<key>SongPath</key>
+<string>/Applications/iPhoto.app/Contents/Resources/Music/Minuet in G.mp3</string>
+<key>TransitionDirection</key>
+<integer>0</integer>
+<key>TransitionName</key>
+<string>Default</string>
+<key>TransitionSpeed</key>
+<real>1.000000</real>
+<key>PanAndZoom</key>
+<string>YES</string>
+<key>Style</key>
+<string>Classic</string>
+<key>ShuffleSlides</key>
+<false/>
+</dict>
+<dict>
+<key>AlbumId</key>
+<integer>8</integer>
+<key>AlbumName</key>
+<string>Last Import</string>
+<key>KeyList</key>
+<array>
+<string>1</string>
+</array>
+<key>Album Type</key>
+<string>Special Roll</string>
+<key>GUID</key>
+<string>lastImportAlbum</string>
+<key>PhotoCount</key>
+<integer>1</integer>
+<key>PlayMusic</key>
+<string>YES</string>
+<key>RepeatSlideShow</key>
+<string>YES</string>
+<key>SecondsPerSlide</key>
+<integer>3</integer>
+<key>SlideShowUseTitles</key>
+<false/>
+<key>SongPath</key>
+<string>/Applications/iPhoto.app/Contents/Resources/Music/Minuet in G.mp3</string>
+<key>TransitionDirection</key>
+<integer>0</integer>
+<key>TransitionName</key>
+<string>Default</string>
+<key>TransitionSpeed</key>
+<real>1.000000</real>
+<key>PanAndZoom</key>
+<string>YES</string>
+<key>Style</key>
+<string>Classic</string>
+<key>ShuffleSlides</key>
+<false/>
+</dict>
+<dict>
+<key>AlbumId</key>
+<integer>9</integer>
+<key>AlbumName</key>
+<string>Flagged</string>
+<key>KeyList</key>
+<array>
+</array>
+<key>Album Type</key>
+<string>Flagged</string>
+<key>GUID</key>
+<string>flaggedAlbum</string>
+<key>PhotoCount</key>
+<integer>0</integer>
+<key>PlayMusic</key>
+<string>YES</string>
+<key>RepeatSlideShow</key>
+<string>YES</string>
+<key>SecondsPerSlide</key>
+<integer>3</integer>
+<key>SlideShowUseTitles</key>
+<false/>
+<key>SongPath</key>
+<string>/Applications/iPhoto.app/Contents/Resources/Music/Minuet in G.mp3</string>
+<key>TransitionDirection</key>
+<integer>0</integer>
+<key>TransitionName</key>
+<string>Default</string>
+<key>TransitionSpeed</key>
+<real>1.000000</real>
+<key>PanAndZoom</key>
+<string>YES</string>
+<key>Style</key>
+<string>Classic</string>
+<key>ShuffleSlides</key>
+<false/>
+</dict>
+</array>
+<key>List of Rolls</key>
+<array>
+<dict>
+<key>RollID</key>
+<integer>4</integer>
+<key>RollName</key>
+<string>Dec 10, 2012</string>
+<key>RollDateAsTimerInterval</key>
+<real>376855794.000000</real>
+<key>KeyPhotoKey</key>
+<string>1</string>
+<key>KeyList</key>
+<array>
+<string>1</string>
+</array>
+<key>PhotoCount</key>
+<integer>1</integer>
+</dict>
+</array>
+<key>List of Faces</key>
+<dict>
+</dict>
+<key>List of Keywords</key>
+<dict>
+<key>2</key>
+<string>_Favorite_</string>
+<key>3</key>
+<string>Favorite</string>
+<key>5</key>
+<string>Kids</string>
+<key>4</key>
+<string>Family</string>
+<key>6</key>
+<string>Vacation</string>
+<key>7</key>
+<string>Birthday</string>
+</dict>
+<key>Major Version</key>
+<integer>2</integer>
+<key>Master Image List</key>
+<dict>
+<key>1</key>
+<dict>
+<key>MediaType</key>
+<string>Image</string>
+<key>Caption</key>
+<string>emme</string>
+<key>Comment</key>
+<string></string>
+<key>GUID</key>
+<string>wUbEJWhrREOnym0+6jjfpg</string>
+<key>PhotoStreamAssetId</key>
+<string></string>
+<key>Aspect Ratio</key>
+<real>1.000000</real>
+<key>Rating</key>
+<integer>0</integer>
+<key>Roll</key>
+<integer>4</integer>
+<key>DateAsTimerInterval</key>
+<real>376855794.000000</real>
+<key>ModDateAsTimerInterval</key>
+<real>376855794.000000</real>
+<key>MetaModDateAsTimerInterval</key>
+<real>0.000000</real>
+<key>ImagePath</key>
+<string>/Users/jbrigham/SparkleShare/jbrigham/iPhoto_ss/Masters/2012/12/10/20121210-160850/emme.tif</string>
+<key>ThumbPath</key>
+<string>/Users/jbrigham/SparkleShare/jbrigham/iPhoto_ss/Thumbnails/2012/12/10/20121210-160850/emme.jpg</string>
+<key>ImageType</key><string>TIFF</string>
+</dict>
+</dict>
+<key>Minor Version</key>
+<integer>0</integer>
+</dict>
+</plist>
