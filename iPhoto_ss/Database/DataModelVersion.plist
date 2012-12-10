@@ -10,6 +10,8 @@
 	<integer>110</integer>
 	<key>adminProperties</key>
 	<dict>
+		<key>GeneralPreferences|FacesEnabled</key>
+		<true/>
 		<key>database.iPhoto|lastImportEventUuid</key>
 		<string>qx5CTyFURGmrlzittsKdig</string>
 		<key>database.iPhoto|lastNMonthsValue</key>
@@ -49,11 +51,15 @@
 	<string>XGdhjwwSQ0KdNv6gYXj9Mg</string>
 	<key>isIPhotoLibrary</key>
 	<true/>
+	<key>masterCount</key>
+	<integer>1</integer>
 	<key>projectCompatibleBackToVersion</key>
 	<integer>8</integer>
 	<key>projectVersion</key>
 	<integer>8</integer>
 	<key>touchedByAperture</key>
 	<true/>
+	<key>versionCount</key>
+	<integer>1</integer>
 </dict>
 </plist>
