@@ -6,8 +6,21 @@
 	<integer>1</integer>
 	<key>SearchProviders</key>
 	<dict>
+		<key>SearchProviderScript</key>
+		<string>SearchProviders = function() { };
+
+SearchProviders.prototype = {
+    searchProviderOrdering: function(userLanguage, userRegion, userHasChineseInputMethod) {
+        if (userRegion === &quot;CN&quot;)
+            return [&quot;Google&quot;, &quot;Baidu&quot;, &quot;Yahoo!&quot;, &quot;Bing&quot;];
+        return [&quot;Google&quot;, &quot;Yahoo!&quot;, &quot;Bing&quot;, &quot;Baidu&quot;];
+    },
+};
+
+var SearchProvidersJS = new SearchProviders;
+</string>
 		<key>Version</key>
-		<integer>2</integer>
+		<integer>4</integer>
 		<key>SearchProviderList</key>
 		<array>
 			<dict>
@@ -335,6 +348,12 @@
 				<string>http://www.google.com/search?client=safari&amp;rls=en&amp;q={searchTerms}&amp;ie=UTF-8&amp;oe=UTF-8</string>
 				<key>SuggestionsURLTemplate</key>
 				<string>http://clients1.google.com/complete/search?client=safari&amp;q={searchTerms}</string>
+				<key>SecureSearchURLTemplate</key>
+				<string>https://www.google.com/search?client=safari&amp;rls=en&amp;q={searchTerms}&amp;ie=UTF-8&amp;oe=UTF-8</string>
+				<key>SafeSearchURLTemplateSuffix</key>
+				<string>&amp;safe=active</string>
+				<key>SecureSuggestionsURLTemplate</key>
+				<string>https://clients1.google.com/complete/search?client=safari&amp;q={searchTerms}</string>
 			</dict>
 			<dict>
 				<key>Identifier</key>
@@ -497,6 +516,40 @@
 				<key>SuggestionsURLTemplate</key>
 				<string>http://api.bing.com/asjson.aspx?query={searchTerms}&amp;form=APMCS2</string>
 			</dict>
+			<dict>
+				<key>Identifier</key>
+				<string>com.baidu.www</string>
+				<key>Predicate</key>
+				<string>$UserHasChineseInputMethod == YES OR $UserRegion in {&apos;CN&apos;, &apos;HK&apos;, &apos;MO&apos;, &apos;TW&apos;}</string>
+				<key>HomePageURLs</key>
+				<array>
+					<string>http://www.baidu.com/</string>
+				</array>
+				<key>HostSuffixes</key>
+				<array>
+					<string>.baidu.com</string>
+				</array>
+				<key>PathPrefixes</key>
+				<array>
+					<string>/v</string>
+					<string>/i</string>
+					<string>/q</string>
+					<string>/ns</string>
+					<string>/s</string>
+					<string>/f</string>
+					<string>/m</string>
+				</array>
+				<key>ScriptingName</key>
+				<string>Baidu</string>
+				<key>ShortName</key>
+				<string>Baidu</string>
+				<key>LocalizableName</key>
+				<string>Baidu</string>
+				<key>SearchURLTemplate</key>
+				<string>http://www.baidu.com/s?wd={searchTerms}&amp;tn=84053098_dg&amp;ie=utf-8</string>
+				<key>SuggestionsURLTemplate</key>
+				<string>http://suggestion.baidu.com/su?&amp;action=opensearch&amp;ie=utf-8&amp;wd={searchTerms}</string>
+			</dict>
 		</array>
 	</dict>
 	<key>ExtensionBlacklist</key>
@@ -514,4 +567,4 @@
 </dict>
 </plist>
 ----BEGIN RSA SIGNATURE----
- >¥¯«‰ı÷ä˘†ÏπŒãÀ—vñ,övmíN’>;MÅ:òàDq¥Îw-Ü jj»é≈≤À≈dS#È-÷*”Ì`
+&]éO~Ëk»∆h°Bxÿ˘1±ŒÿS& ŸnØ÷/2iøÓË.úr¥õ	nc$÷G¡$¬*<+€û◊‘IÛÄú6Ô
